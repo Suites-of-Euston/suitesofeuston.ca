@@ -1,0 +1,25 @@
+/*
+################################################################
+#suitesofeuston.ca: body.css
+#Copyright © 2025 Allison Munn
+#FULL COPYRIGHT NOTICE IS IN README
+################################################################
+*/
+
+body {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: #E1B664;
+  background-color: #8B655E;
+  background-image: url("/suitesofeuston.ca/img/background.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

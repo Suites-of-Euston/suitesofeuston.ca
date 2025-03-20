@@ -1,0 +1,12 @@
+/*
+################################################################
+#suitesofeuston.ca: body.css
+#Copyright © 2025 Allison Munn
+#FULL COPYRIGHT NOTICE IS IN README
+################################################################
+*/
+
+html {
+  scroll-behaivour: smooth;
+  scroll-snap-type: initial;
+}
