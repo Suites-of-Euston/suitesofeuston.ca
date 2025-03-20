@@ -1,0 +1,24 @@
+/*
+################################################################
+#suitesofeuston.ca: a.css
+#Copyright © 2025 Allison Munn
+#FULL COPYRIGHT NOTICE IS IN README
+################################################################
+*/
+
+a {
+  color: #BE913C;
+  text-decoration: none !important;
+}
+
+a:visited {
+  color: #9A6F1C;
+}
+
+a:hover {
+  color: #FFDC98;
+}
+
+a:active {
+  color: #FFE9C1;
+}
