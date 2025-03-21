@@ -77,3 +77,63 @@ div.card {
   background-color: #0C1321;
   scroll-snap-align: center;
 }
+
+div.card > div.card-title {
+  width: parent;
+  height: 32px;
+  margin-top: 8px;
+  line-height: 1;
+  font-size: 32px;
+}
+
+div.card > div.card-title + div.card-title-sub {
+  width: parent;
+  height: 12px;
+  margin-top: 8px;
+  line-height: 1;
+  font-size: 12px;
+}
+
+div.card > div.card-content {
+  width: parent;
+  height: calc(100% - 8px - 32px - 8px - 10px - 8px - 40px);
+  margin-top: 8px;
+  padding-top: 40px;
+  font-size: 14px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: ‎‎#E1B664 #050A14;
+}
+
+div.card > div.card-content::-webkit-scrollbar {
+  width: 3px;
+}
+
+div.card > div.card-content::-webkit-scrollbar-thumb {
+  background-color: #050A14;
+  border-radius: 12px;
+  border: 1px solid #00000000;
+}
+
+div.card > div.card-content::-webkit-scrollbar-track {
+  background-color: #00000000;
+}
+
+div.card > div.card-content > img.card-picture {
+  width: parent;
+  height: calc(100%);
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-attachment: center;
+  background-position: center;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+
