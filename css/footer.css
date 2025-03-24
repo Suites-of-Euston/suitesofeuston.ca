@@ -1,0 +1,51 @@
+/*
+################################################################
+#suitesofeuston.ca: footer.css
+#Copyright © 2025 Allison Munn
+#FULL COPYRIGHT NOTICE IS IN README
+################################################################
+*/
+
+#footer {
+  width: 100%;
+  height: 96px;
+  margin-top: 8px;
+  text-align: center;
+  color: #E1B664;
+  background-color: #01040A;
+}
+
+div.footer-item {
+  width: auto;
+  height: 96px;
+  display: inline-block;
+}
+
+div.footer-item > a {
+  
+}
+
+div.footer-item > a:link {
+  color: #E1B664;
+}
+
+div.footer-item > a:visited {
+  color: #E1B664;
+}
+
+div.footer-item > a:hover {
+  color: #E1B664;
+}
+
+div.footer-item > a > div {
+  width: auto;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  font-size: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
