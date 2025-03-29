@@ -35,11 +35,11 @@
   }
 
   div.card.card-height-medium {
-    height: calc(428px + 12px + 8px + 12px);
+    height: calc(268px + 12px + 8px + 12px);
   }
 
   div.card.card-height-tall {
-    height: calc(624px + 12px + 8px + 12px + 12px + 8px + 12px);
+    height: calc(335px + 12px + 8px + 12px + 12px + 8px + 12px);
   }
 
 }
@@ -54,11 +54,11 @@
   }
 
   div.card.card-height-medium {
-    height: calc(428px + 12px + 8px + 12px);
+    height: calc(268px + 12px + 8px + 12px);
   }
 
   div.card.card-height-tall {
-    height: calc(624px + 12px + 8px + 12px + 12px + 8px + 12px);
+    height: calc(335px + 12px + 8px + 12px + 12px + 8px + 12px);
   }
 
 }
