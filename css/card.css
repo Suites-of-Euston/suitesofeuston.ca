@@ -166,7 +166,7 @@ div.card > div.card-content > img.card-picture {
   margin-right: auto;
   overflow-x: hidden;
   overflow-y: hidden;
-  background-attachment: center;
+  background-attachment: scroll;
   background-position: center;
   background-position-x: center;
   background-position-y: center;
@@ -182,7 +182,7 @@ div.card > div.card-content > img.card-picture-4x3 {
   margin-right: auto;
   overflow-x: hidden;
   overflow-y: hidden;
-  background-attachment: center;
+  background-attachment: scroll;
   background-position: center;
   background-position-x: center;
   background-position-y: center;
@@ -198,7 +198,7 @@ div.card > div.card-content > img.card-picture-3x4 {
   margin-right: auto;
   overflow-x: hidden;
   overflow-y: hidden;
-  background-attachment: center;
+  background-attachment: scroll;
   background-position: center;
   background-position-x: center;
   background-position-y: center;
