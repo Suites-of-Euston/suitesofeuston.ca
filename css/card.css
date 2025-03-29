@@ -175,4 +175,34 @@ div.card > div.card-content > img.card-picture {
   display: block;
 }
 
+div.card > div.card-content > img.card-picture-4x3 {
+  width: parent;
+  height: calc(calc(100% * 3) / 4);
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-attachment: center;
+  background-position: center;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
 
+div.card > div.card-content > img.card-picture-3x4 {
+  width: parent;
+  height: calc(calc(100% * 4) / 3);
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-attachment: center;
+  background-position: center;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
