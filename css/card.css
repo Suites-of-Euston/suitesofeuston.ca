@@ -8,7 +8,7 @@
 
 @media only screen and (max-width: 428px) and (min-width: 214px) {
   div.card {
-	width: calc(100% - 16px - 24px);
+    width: calc(100% - 16px - 24px);
   }
 
   div.card.card-height-short {
@@ -27,7 +27,7 @@
 
 @media only screen and (max-width: 444px) and (min-width: 429px) {
   div.card {
-	width: calc(100% - 16px - 24px);
+    width: calc(100% - 16px - 24px);
   }
 
   div.card.card-height-short {
@@ -46,7 +46,7 @@
 
 @media only screen and (max-width: 926px) and (min-width: 445px) {
   div.card {
-	width: calc(49.500% - 16px - 24px);
+    width: calc(49.500% - 16px - 24px);
   }
 
   div.card.card-height-short {
@@ -66,7 +66,7 @@
 @media only screen and (min-width: 927px) {
   
   div.card {
-	width: calc(49.500% - 16px - 24px);
+    width: calc(49.500% - 16px - 24px);
   }
 
   div.card.card-width-tiny {
@@ -135,7 +135,7 @@ div.card > div.card-title + div.card-title-sub {
 
 div.card > div.card-content {
   width: parent;
-  height: calc(100% - 8px - 32px - 8px - 10px - 8px - 40px);
+  height: calc(100% - 8px - 32px - 8px - 12px - 8px - 40px);
   margin-top: 8px;
   padding-top: 40px;
   font-size: 14px;
