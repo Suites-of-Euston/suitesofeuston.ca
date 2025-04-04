@@ -178,7 +178,6 @@ div.card > div.card-content > img.card-picture {
   background-position-y: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: block;
 }
 
 div.card > div.card-content > img.card-picture-4x3 {
@@ -195,7 +194,6 @@ div.card > div.card-content > img.card-picture-4x3 {
   background-position-y: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: block;
 }
 
 div.card > div.card-content > img.card-picture-3x4 {
@@ -212,5 +210,4 @@ div.card > div.card-content > img.card-picture-3x4 {
   background-position-y: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: block;
 }
