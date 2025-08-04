@@ -212,13 +212,25 @@ div.card > div.card-content > img.card-picture-3x4 {
   background-size: cover;
 }
 
-div.card > div.card-button {
+div.card > a > div.card-button {
   display: block;
   width: fit-content;
   margin-top: 8px;
   margin-left: auto;
-  margin-right: 8px;
-  padding-top: 16px;
+  margin-right: 0px;
+  padding-top: 8px;
   line-height: 1;
   font-size: 24px;
+  background-color: #562921;
+  border-radius: 12px;
+}
+
+div.card > a > div.card-button:visited {
+  background-color: #562921;
+}
+div.card > a > div.card-button:hover {
+  background-color: #5B3D37;
+}
+div.card > a > div.card-button:active {
+  background-color: #8B655E;
 }
