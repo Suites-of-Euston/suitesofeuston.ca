@@ -212,7 +212,7 @@ div.card > div.card-content > img.card-picture-3x4 {
   background-size: cover;
 }
 
-div.card > div.card-content > div.card-button {
+div.card > div.card-button {
   display: block;
   width: fit-content;
   margin-top: 8px;
