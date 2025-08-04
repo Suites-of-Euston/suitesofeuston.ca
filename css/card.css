@@ -212,25 +212,32 @@ div.card > div.card-content > img.card-picture-3x4 {
   background-size: cover;
 }
 
-div.card > a > div.card-button {
+div.card > div.card-button > a > div.card-button-inner {
   display: block;
   width: fit-content;
   margin-top: 8px;
   margin-left: auto;
   margin-right: 0px;
+}
+
+div.card > div.card-button > a > div.card-button-inner { 
+  display: block; 
   padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
   line-height: 1;
   font-size: 24px;
   background-color: #562921;
   border-radius: 12px;
 }
 
-div.card > a > div.card-button:visited {
+div.card > div.card-button > a > div.card-button-inner:visited {
   background-color: #562921;
 }
-div.card > a > div.card-button:hover {
+div.card > div.card-button > a > div.card-button-inner:hover {
   background-color: #5B3D37;
 }
-div.card > a > div.card-button:active {
+div.card > div.card-button > a > div.card-button-inner:active {
   background-color: #8B655E;
 }
