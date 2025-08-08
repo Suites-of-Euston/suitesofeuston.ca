@@ -1,0 +1,14 @@
+/*
+################################################################
+#suitesofeuston.ca: hr.css
+#Copyright © 2025 Allison Munn
+#FULL COPYRIGHT NOTICE IS IN README
+################################################################
+*/
+
+hr {
+  border: 0px solid #E1B664;
+  border-radius: 0px;
+  margin: 0px;
+  padding: 0px;
+}
