@@ -20,6 +20,7 @@ function bikeSubmit(event)
   
   if(navigator.platform === "iPhone") valR = true;
   if(navigator.platform === "MacIntel") valR = false;
+  if(navigator.platform === "Linux x86_64") valR = false;
   
   document.getElementById("FORM-BIKE-H-BODY").value = msg;
   
