@@ -16,7 +16,7 @@ function bikeSubmit(event)
   var dateEnd = document.getElementById("FORM-BIKE-DATE-END").value;
   var body = ("").concat(msg, ws, "\n", "FROM:", ws, dateStart, ws, "TO:", ws, dateEnd);
   //alert(body);
-  alert(navigator.platform);
+  //alert(navigator.platform);
   
   if(navigator.platform === "iPhone") valR = true;
   if(navigator.platform === "MacIntel") valR = false;
