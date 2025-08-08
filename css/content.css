@@ -8,6 +8,8 @@
 
 #content {
   margin: auto;
+  scroll-snap-type: y mandatory;
+  scroll-padding-top: 8px;
 }
 
 @media only screen and (max-width: 249px) and (min-width: 214px) {
