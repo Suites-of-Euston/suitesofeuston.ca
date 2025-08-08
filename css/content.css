@@ -145,133 +145,133 @@
 
 @media only screen and (max-height: 249px) and (min-height: 214px) {
   #content {
-    height: 214px;
+    height: calc(214px - 48px - 40px - 8px);
   }
 }
 
 @media only screen and (max-height: 275px) and (min-height: 250px) {
   #content {
-    height: 250px;
+    height: calc(250px - 48px - 40px - 8px);
   }
 }
 
 @media only screen and (max-height: 319px) and (min-height: 276px) {
   #content {
-    height: 276px;
+    height: calc(276px - 48px - 40px - 8px);
   }
 }
 
 @media only screen and (max-height: 359px) and (min-height: 320px) {
   #content {
-    height: 320px;
+    height: calc(320px - 48px - 40px - 8px);
   }
 }
 
 @media only screen and (max-height: 374px) and (min-height: 360px) {
   #content {
-    height: 360px;
+    height: calc(360px - 48px - 40px - 8px);
   }
 }
 
 @media only screen and (max-height: 378px) and (min-height: 375px) {
   #content {
-    height: 375px;
+    height: calc(375px - 48px - 40px - 8px);
   }
 }
 
 @media only screen and (max-height: 389px) and (min-height: 379px) {
   #content {
-    height: 379px;
+    height: calc(379px - 48px - 40px - 8px);
   }
 }
 
 @media only screen and (max-height: 413px) and (min-height: 390px) {
   #content {
-    height: 390px;
+    height: calc(390px - 48px - 40px - 8px);
   }
 }
 
 @media only screen and (max-height: 427px) and (min-height: 414px) {
   #content {
-    height: 414px;
+    height: calc(414px - 48px - 40px - 8px);
   }
 }
 
 @media only screen and (max-height: 444px) and (min-height: 428px) {
   #content {
-    height: 428px;
+    height: calc(428px - 48px - 40px - 8px);
   }
 }
 
 @media only screen and (max-height: 479px) and (min-height: 445px) {
   #content {
-    height: 445px;
+    height: calc(445px - 48px - 40px - 8px);
   }
 }
 
 @media only screen and (max-height: 567px) and (min-height: 480px) {
   #content {
-    height: 480px;
+    height: calc(480px - 48px - 40px - 8px);
   }
 }
 
 @media only screen and (max-height: 597px) and (min-height: 568px) {
   #content {
-    height: 568px;
+    height: calc(568px - 48px - 40px - 8px);
   }
 }
 
 @media only screen and (max-height: 666px) and (min-height: 598px) {
   #content {
-    height: 598px;
+    height: calc(598px - 48px - 40px - 8px);
   }
 }
 
 @media only screen and (max-height: 735px) and (min-height: 667px) {
   #content {
-    height: 667px;
+    height: calc(667px - 48px - 40px - 8px);
   }
 }
 
 @media only screen and (max-height: 779px) and (min-height: 736px) {
   #content {
-    height: 736px;
+    height: calc(736px - 48px - 40px - 8px);
   }
 }
 
 @media only screen and (max-height: 811px) and (min-height: 780px) {
   #content {
-    height: 780px;
+    height: calc(780px - 48px - 40px - 8px);
   }
 }
 
 @media only screen and (max-height: 843px) and (min-height: 812px) {
   #content {
-    height: 812px;
+    height: calc(812px - 48px - 40px - 8px);
   }
 }
 
 @media only screen and (max-height: 895px) and (min-height: 844px) {
   #content {
-    height: 844px;
+    height: calc(844px - 48px - 40px - 8px);
   }
 }
 
 @media only screen and (max-height: 925px) and (min-height: 896px) {
   #content {
-    height: 896px;
+    height: calc(896px - 48px - 40px - 8px);
   }
 }
 
 @media only screen and (max-height: 1279px) and (min-height: 926px) {
   #content {
-    height: 926px;
+    height: calc(926px - 48px - 40px - 8px);
   }
 }
 
 @media only screen and (min-height: 720px) {
   #content {
-    height: 720px;
+    height: calc(720px - 48px - 40px - 8px);
   }
 }
 
