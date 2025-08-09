@@ -148,6 +148,7 @@ div.card > div.card-content {
   overflow-y: scroll;
   scrollbar-width: thin;
   scrollbar-color: ‎‎#E1B664 #050A14;
+  -ms-overflow-style: none;
 }
 
 div.card > div.card-content::-webkit-scrollbar {
