@@ -19,7 +19,7 @@
   width: 36px;
   height: 36px;
   display: inline-block;
-  veritcal-align: top;
+  veritcal-align: middle;
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 18px;
@@ -30,7 +30,7 @@
   width: auto;
   height: 16px;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
   line-height: 1;
   font-size: 16px;
   padding-top: 16px;
