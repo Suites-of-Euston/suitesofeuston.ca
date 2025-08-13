@@ -1,0 +1,14 @@
+input.submit {
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+input.submit:active {
+  color: #E1B664;
+  backgorund-color: #5B3D37;
+}
+
+input.submit:hover {
+  color: #E1B664;
+  backgorund-color: #8B655E;
+}
