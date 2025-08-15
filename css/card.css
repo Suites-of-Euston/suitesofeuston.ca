@@ -103,6 +103,12 @@
 
 }
 
+div.card.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 div.card {
   display: inline-block;
   vertical-align: top;
