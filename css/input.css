@@ -1,6 +1,7 @@
 input.submit {
   font-size: 16px;
   border-radius: 6px;
+  -webkit-border-radius: 6px;
   border: 0px;
   color: #BE913C;
   background-color: #562921;
@@ -12,6 +13,6 @@ input.submit:active {
 }
 
 input.submit:hover {
-  color: #E1B664;
+  color: #FFDC98;
   backgorund-color: #8B655E;
 }
