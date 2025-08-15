@@ -1,6 +1,8 @@
 input.submit {
   font-size: 16px;
   border-radius: 12px;
+  color: #BE913C;
+  background-color: #562921;
 }
 
 input.submit:active {
