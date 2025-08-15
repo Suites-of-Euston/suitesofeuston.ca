@@ -1,6 +1,7 @@
 input.submit {
   font-size: 16px;
-  border-radius: 12px;
+  border-radius: 6px;
+  border: 0px;
   color: #BE913C;
   background-color: #562921;
 }
