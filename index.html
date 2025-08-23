@@ -24,7 +24,7 @@
     <meta name="apple-mobile-web-app-title" content="Suites of Euston">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="viewport" content="width=device-width initial-scale=1.0, user-scalable=no viewport-fit=cover" >
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="/manifest.json" tabindex="-1">
     <link rel="stylesheet" href="/css/html.css">
     <link rel="stylesheet" href="/css/body.css">
     <link rel="stylesheet" href="/css/header.css">
@@ -49,10 +49,14 @@
   <body>
     <div id="header">
       <div id="header-logo-text">
-        Suites of Euston
+        <a href="/index.html" tabindex="1">
+          <div>
+            Suites of Euston
+          </div>
+        </a>
       </div>
       <div class="header-item right" align="right">
-        <a href="#FORM-ROOM-CARD" tabindex="1">
+        <a href="#FORM-ROOM-CARD" tabindex="2">
           <div>
             Book Now
           </div>
@@ -87,19 +91,19 @@
               </tr>
               <tr>
                 <td><label for="FORM-ROOM-ADULTS">Guests:</label></td>
-                <td span="2"><input type="number" id="FORM-ROOM-ADULTS" name="adults" tabindex="2" value="2" min="1" max="5"></td>
+                <td span="2"><input type="number" id="FORM-ROOM-ADULTS" name="adults" tabindex="3" value="2" min="1" max="5"></td>
               </tr>
               <tr>
                 <td><label for="FORM-ROOM-DATE-CHECK-IN">Check-in date:</label></td>
-                <td span="2"><input type="date" id="FORM-ROOM-DATE-CHECK-IN" name="startDate" tabindex="3" required></td>
+                <td span="2"><input type="date" id="FORM-ROOM-DATE-CHECK-IN" name="startDate" tabindex="4" required></td>
               </tr>
               <tr>
                 <td><label for="FORM-ROOM-DATE-CHECK-OUT">Check-out date:</label></td>
-                <td span="2"><input type="date" id="FORM-ROOM-DATE-CHECK-OUT" name="endDate" tabindex="4" required></td>
+                <td span="2"><input type="date" id="FORM-ROOM-DATE-CHECK-OUT" name="endDate" tabindex="5" required></td>
               </tr>
               <tr>
                 <td span="2"></td>
-                <td><input type="submit" tabindex="5" value="Book Now" class="submit"></td>
+                <td><input type="submit" tabindex="6" value="Book Now" class="submit"></td>
               </tr>
             </tbody>
             <tfoot>
@@ -108,15 +112,15 @@
               </tr>
               <tr>
                 <td>Call:</td>
-                <td span="2"><a href="tel:+1-902-314-0364" tabindex="6">+1-902-314-0364</a></td>
+                <td span="2"><a href="tel:+1-902-314-0364" tabindex="7">+1-902-314-0364</a></td>
               </tr>
               <tr>
                 <td>Text:</td>
-                <td span="2"><a href="sms:+1-902-314-0364?body=Hi%20Todd%2C%20I%27d%20like%20to%20book%20a%20room%2E" tabindex="7">+1-902-314-0364</a></td>
+                <td span="2"><a href="sms:+1-902-314-0364?body=Hi%20Todd%2C%20I%27d%20like%20to%20book%20a%20room%2E" tabindex="8">+1-902-314-0364</a></td>
               </tr>
               <tr>
                 <td>Email:</td>
-                <td span="2"><a href="mailto:info@suitesofeuston.ca?subject=BOOKING%20REQUEST&body=Hi%20Todd%2C%20I%27d%20like%20to%20book%20a%20room%2E" tabindex="8">info@suitesofeuston.ca</a></td>
+                <td span="2"><a href="mailto:info@suitesofeuston.ca?subject=BOOKING%20REQUEST&body=Hi%20Todd%2C%20I%27d%20like%20to%20book%20a%20room%2E" tabindex="9">info@suitesofeuston.ca</a></td>
               </tr> 
             </tfoot>
           </table>
@@ -130,10 +134,10 @@
           George Coles Suite
         </div>
         <div class="card-content">
-          <img class="card-picture-4x3 img-room-01" alt="A warmly lit room with a bed, mahogany dresser, and table." tabindex="9" src="/img/default-4x3.png">
+          <img class="card-picture-4x3 img-room-01" alt="A warmly lit room with a bed, mahogany dresser, and table." tabindex="10" src="/img/default-4x3.png">
         </div>
         <div class="card-button">
-          <a href="https://airbnb.ca/h/suites-of-euston-suite-1" tabindex="10">
+          <a href="https://airbnb.ca/h/suites-of-euston-suite-1" tabindex="11">
             <div class="card-button-inner">
               Book Now
             </div>
@@ -148,10 +152,10 @@
           Col. J.H. Gray Suite
         </div>
         <div class="card-content">
-          <img class="card-picture-4x3 img-room-02" alt="A well lit room with sun shining in, a queen bed, decorative cupboard, electric fireplace, and table." tabindex="11" src="/img/default-4x3.png">
+          <img class="card-picture-4x3 img-room-02" alt="A well lit room with sun shining in, a queen bed, decorative cupboard, electric fireplace, and table." tabindex="12" src="/img/default-4x3.png">
         </div>
         <div class="card-button">
-          <a href="https://airbnb.ca/h/suites-of-euston-suite-2" tabindex="12">
+          <a href="https://airbnb.ca/h/suites-of-euston-suite-2" tabindex="13">
             <div class="card-button-inner">
               Book Now
             </div>
@@ -166,10 +170,10 @@
           A.A. Macdonald Suite
         </div>
         <div class="card-content">
-          <img class="card-picture-4x3 img-room-03" alt="A room with a queen bed, table, electric fireplace, and wooden floors." tabindex="13" src="/img/default-4x3.png">
+          <img class="card-picture-4x3 img-room-03" alt="A room with a queen bed, table, electric fireplace, and wooden floors." tabindex="14" src="/img/default-4x3.png">
         </div>
         <div class="card-button">
-          <a href="https://airbnb.ca/h/suites-of-euston-suite-3" tabindex="14">
+          <a href="https://airbnb.ca/h/suites-of-euston-suite-3" tabindex="15">
             <div class="card-button-inner">
               Book Now
             </div>
@@ -184,10 +188,10 @@
           William H. Pope Suite
         </div>
         <div class="card-content">
-          <img class="card-picture-4x3 img-room-04" alt="A room with a queen bed, television, electric fireplace, and a small black table." tabindex="15" src="/img/default-4x3.png">
+          <img class="card-picture-4x3 img-room-04" alt="A room with a queen bed, television, electric fireplace, and a small black table." tabindex="16" src="/img/default-4x3.png">
         </div>
         <div class="card-button">
-          <a href="https://airbnb.ca/h/suites-of-euston-suite-4" tabindex="16">
+          <a href="https://airbnb.ca/h/suites-of-euston-suite-4" tabindex="17">
             <div class="card-button-inner">
               Book Now
             </div>
@@ -202,10 +206,10 @@
           Sir Ambrose Shea Suite
         </div>
         <div class="card-content">
-          <img class="card-picture-4x3 img-room-05" alt="A cooley lit room with a four post mahogony bed, and a small table." tabindex="17" src="/img/default-4x3.png">
+          <img class="card-picture-4x3 img-room-05" alt="A cooley lit room with a four post mahogony bed, and a small table." tabindex="18" src="/img/default-4x3.png">
         </div>
         <div class="card-button">
-          <a href="https://airbnb.ca/h/suites-of-euston-suite-5" tabindex="18">
+          <a href="https://airbnb.ca/h/suites-of-euston-suite-5" tabindex="19">
             <div class="card-button-inner">
               Book Now
             </div>
@@ -220,10 +224,10 @@
           Sir John A. Macdonald Suite
         </div>
         <div class="card-content">
-          <img class="card-picture-4x3 img-room-06" alt="A warmly lit room with a large mahogony poster bed and a table." tabindex="19" src="/img/default-4x3.png">
+          <img class="card-picture-4x3 img-room-06" alt="A warmly lit room with a large mahogony poster bed and a table." tabindex="20" src="/img/default-4x3.png">
         </div>
         <div class="card-button">
-          <a href="https://airbnb.ca/h/suites-of-euston-suite-6" tabindex="20">
+          <a href="https://airbnb.ca/h/suites-of-euston-suite-6" tabindex="21">
             <div class="card-button-inner">
               Book Now
             </div>
@@ -238,10 +242,10 @@
           Sir George E. Cartier Suite
         </div>
         <div class="card-content">
-          <img class="card-picture-4x3 img-room-07" alt="A room with a double bed, television, table, and fire place." tabindex="21" src="/img/default-4x3.png">
+          <img class="card-picture-4x3 img-room-07" alt="A room with a double bed, television, table, and fire place." tabindex="22" src="/img/default-4x3.png">
         </div>
         <div class="card-button">
-          <a href="https://airbnb.ca/h/suites-of-euston-suite-7" tabindex="22">
+          <a href="https://airbnb.ca/h/suites-of-euston-suite-7" tabindex="23">
             <div class="card-button-inner">
               Book Now
             </div>
@@ -256,10 +260,10 @@
           Sir Charles Tupper Suite
         </div>
         <div class="card-content">
-          <img class="card-picture-4x3 img-room-08" alt="A room overlooking euston st, with a double bed, television, and table." tabindex="23" src="/img/default-4x3.png">
+          <img class="card-picture-4x3 img-room-08" alt="A room overlooking euston st, with a double bed, television, and table." tabindex="24" src="/img/default-4x3.png">
         </div>
         <div class="card-button">
-          <a href="https://airbnb.ca/h/suites-of-euston-suite-8" tabindex="24">
+          <a href="https://airbnb.ca/h/suites-of-euston-suite-8" tabindex="25">
             <div class="card-button-inner">
               Book Now
             </div>
@@ -274,10 +278,10 @@
           Edward Palmer Suite
         </div>
         <div class="card-content">
-          <img class="card-picture-4x3 img-room-09" alt="A room overlooking euston st with a double bed, closet, and table" tabindex="25" src="/img/default-4x3.png">
+          <img class="card-picture-4x3 img-room-09" alt="A room overlooking euston st with a double bed, closet, and table" tabindex="26" src="/img/default-4x3.png">
         </div>
         <div class="card-button">
-          <a href="https://airbnb.ca/h/suites-of-euston-suite-9" tabindex="26">
+          <a href="https://airbnb.ca/h/suites-of-euston-suite-9" tabindex="27">
             <div class="card-button-inner">
               Book Now
             </div>
@@ -292,10 +296,10 @@
           Master Suite
         </div>
         <div class="card-content">
-          <img class="card-picture-4x3 img-room-10" alt="A well lit brick room with a queen bed, double bed, and a table." tabindex="27" src="/img/default-4x3.png">
+          <img class="card-picture-4x3 img-room-10" alt="A well lit brick room with a queen bed, double bed, and a table." tabindex="28" src="/img/default-4x3.png">
         </div>
         <div class="card-button">
-          <a href="https://airbnb.ca/h/suites-of-euston-grand-suite" tabindex="28">
+          <a href="https://airbnb.ca/h/suites-of-euston-grand-suite" tabindex="29">
             <div class="card-button-inner">
               Book Now
             </div>
@@ -306,14 +310,14 @@
     <hr>
     <div id="footer">
       <div class="footer-item" align="center">
-        <a href="https://maps.app.goo.gl/mYkSNUG9BPwA2GAj6" tabindex="29">
+        <a href="https://maps.app.goo.gl/mYkSNUG9BPwA2GAj6" tabindex="30">
           <div>
             155&nbsp;Euston&nbsp;St,&nbsp;Charlottetown,&nbsp;Prince&nbsp;Edward&nbsp;Island,&nbsp;C1A&nbsp;1W6
           </div>
         </a>
       </div>
       <div class="footer-item" align="center">
-        <a href="https://suitesofeuston.ca" tabindex="30">
+        <a href="https://suitesofeuston.ca" tabindex="31">
           <div>
             COPYRIGHT © 2025 SUITES OF EUSTON INC.
           </div>
