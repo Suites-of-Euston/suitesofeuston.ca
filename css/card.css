@@ -226,6 +226,15 @@ div.card > div.card-content > img.card-picture-3x4 {
   background-size: cover;
 }
 
+div.card > div.card-content >  div.card-picture-alt-credit {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: auto;
+  left: calc(0 - calc(100%));
+  overflow: hidden;
+}
+
 div.card > div.card-button > a > div.card-button-inner {
   display: block;
   width: fit-content;
