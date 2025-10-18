@@ -1,2 +1,3 @@
 user-agent: *
 allow: /suitesofeuston.ca/index.html
+allow: /index.html

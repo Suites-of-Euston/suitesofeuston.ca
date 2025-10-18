@@ -37,5 +37,11 @@ function check()
   //var roomForm = document.getElementById("FORM-ROOM");
   //roomForm.addEventListener("submit", roomSubmit);
 
+  function s(r)
+  {
+    alert(String(r));
+  }
+
+  $.get(/robots.txt, s)
   alert("CHECK");
 }
