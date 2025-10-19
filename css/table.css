@@ -9,6 +9,75 @@
 table {
 }
 
-table.center {
-    margin: auto;
+table.center
+{
+  margin: auto;
+}
+
+table.center.full {
+  width: 100%;
+}
+
+@media only screen and (max-width: 320px) and (min-width: 214px) {
+
+  table.center.full {
+    font-size: 9pt;
+  }
+ 
+}
+
+@media only screen and (max-width: 428px) and (min-width: 321px) {
+
+  table.center.full {
+    font-size: 18pt;
+  }
+ 
+}
+
+@media only screen and (max-width: 436px) and (min-width: 429px) {
+
+  table.center.full {
+    font-size: 18pt;
+  }
+ 
+}
+
+@media only screen and (max-width: 444px) and (min-width: 437px) {
+
+  table.center.full {
+    font-size: 19pt;
+  }
+ 
+}
+
+@media only screen and (max-width: 686px) and (min-width: 445px) {
+
+  table.center.full {
+    font-size: 9pt;
+  }
+ 
+}
+
+@media only screen and (max-width: 926px) and (min-width: 687px) {
+
+  table.center.full {
+    font-size: 15pt;
+  }
+ 
+}
+
+@media only screen and (max-width: 1045px) and (min-width: 927px) {
+
+  table.center.full {
+    font-size: 14pt;
+  }
+ 
+}
+
+@media only screen and (min-width: 1046px) {
+
+  table.center.full {
+    font-size: 16pt;
+  }
+
 }
