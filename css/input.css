@@ -16,3 +16,9 @@ input.submit:hover {
   color: #FFDC98;
   backgorund-color: #8B655E;
 }
+
+input.date {
+  color: #E1B664;
+  border-color: #E1B664;
+  background-color: 0C1321;
+}
